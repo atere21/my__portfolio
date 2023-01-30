@@ -6,8 +6,8 @@ import lemon from "../assets/lemon.png"
 
 const Work = () => {
   return (
-    <div className=" md:h-screen  text-gray-300 bg-[#0a132f] pb-9" >
-      <div className="max-w-[1000px] mx-auto py-2 flex flex-col justify-center w-full h-full px-9 pb-7" >
+    <div name='work' className="w-full md:h-screen  text-gray-300 bg-[#0a132f] work__div" >
+      <div className="max-w-[1000px] mx-auto py-2 flex flex-col justify-center w-full h-full" >
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
             Work
@@ -15,7 +15,7 @@ const Work = () => {
           <p className="py-6">Check out some of my recent work</p>
         </div>
         {/* container for projects */}
-        <div className="  grid grid-cols-2 sm: grid-col-1 md:grid-col-3 gap-6 w-full h-screen" >
+        <div className="  grid grid-cols-2 sm: grid-col-1 md:grid-col-3 gap-4 w-full h-screen" >
           {/* card div */}
           <div
             style={{ backgroundImage: `url(${amazon})` }}
