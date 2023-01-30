@@ -11,7 +11,7 @@ import mongo from '../assets/mongo.png';
 
 function Skills() {
   return (
-    <div name='skills' className=' bg-[#0a132f] text-gray-300'>
+    <div name='skills' className=' bg-[#0a132f] text-gray-300 py-16 px-4'>
      {/* container */}
      <div className='max-w-[1000px] mx-auto p-4 flex-col justify-center w-full h-full'>
         <div>
