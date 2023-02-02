@@ -1,3 +1,7 @@
+# A React JS Website Styled With Tailwind CSS
+
+![portfolio](https://user-images.githubusercontent.com/106532533/216435769-1a3fed14-6583-4fa3-a0b0-cca7ee7d85b0.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
