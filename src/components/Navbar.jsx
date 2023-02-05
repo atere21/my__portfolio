@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import { FaBars, FaTimes,
      FaGithub,
      FaLinkedin,
+     FaTwitter,
     } 
      from "react-icons/fa";
 
@@ -81,23 +82,23 @@ const Navbar= () =>{
         </Link></li>
       </ul>
       {/* social-icons */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+      <div className=" lg:flex fixed flex-col top-[35%] left-0">
         <ul>
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
                     <a className="flex justify-between items-center w-full text-gray-300"
-                     href="/">
+                     href="https://www.linkedin.com/in/oluwatosin-atere-829a58205/">
                 LinkedIn <FaLinkedin size={30}/>
             </a>
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
                     <a className="flex justify-between items-center w-full text-gray-300"
-                     href="/">
+                     href="https://github.com/atere21">
                 Github <FaGithub size={30}/>
             </a>
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
                     <a className="flex justify-between items-center w-full text-gray-300"
-                     href="/">
+                     href="mailto:tosinateret@gmail.com">
                 Email <HiOutlineMail size={30}/>
             </a>
         </li>
@@ -107,6 +108,13 @@ const Navbar= () =>{
                 Resume <BsFillPersonLinesFill size={30}/>
             </a>
         </li>
+
+        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+                    <a className="flex justify-between items-center w-full text-blue-300"
+                     href="https://twitter.com/flourishgold212">
+                Twitter <FaTwitter size={30}/>
+            </a>
+            </li>
         </ul>
       </div>
     </div>
