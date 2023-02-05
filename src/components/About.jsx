@@ -11,7 +11,7 @@ function About() {
             </div>
             <div></div>
            </div>
-           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-6'>
+           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-5'>
              <div className='sm:text-right text-4xl font-bold'>
                <p>Hi. I'm Tosin, nice to meet you. Please take a look around.</p>
              </div>
