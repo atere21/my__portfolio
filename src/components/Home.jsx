@@ -6,7 +6,7 @@ const Home = () => {
   const [home, setHome] = useState(false);
   const handleClick = () => setHome(!home);
   return (
-    <div name='home' className="w-full h-screen bg-[#0a132f]">
+    <div name='home' className="w-full h-screen bg-[#0a132f] ">
       {/* container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-pink-600 text-2xl">Hi, my name is</p>
@@ -18,7 +18,7 @@ const Home = () => {
           creating powerful applications that emphasize customer acquisition and an enhanced online digital experience.
 
         </p>
-        <div>
+        <div >
 
           <Link onClick={handleClick} activeClass="active" to="work" smooth={true} duration={500}>
           <button

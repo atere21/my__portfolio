@@ -1,13 +1,15 @@
 import React from "react";
-import realestate from "../assets/realestate.jpg";
-import workimg from "../assets/work.jpeg";
-import amazon from "../assets/amazon.png"
-import lemon from "../assets/lemon.png"
+import data from "../assets/data.png";
+import food from "../assets/food.png";
+import hotel from "../assets/hotel.png";
+import ibeep from "../assets/ibeep.png";
+import book from "../assets/book.png";
+import netflix from "../assets/netflix.png";
 
 const Work = () => {
   return (
-    <div name='work' className="w-full md:h-screen  text-gray-300 bg-[#0a132f] work__div px-2" >
-      <div className="max-w-[1000px] mx-auto py-2 flex flex-col justify-center w-full h-full " >
+    <div name='work' className="w-full md:h-screen text-gray-300 bg-[#0a132f] work__div px-2">
+      <div className="max-w-[1000px] mx-auto py-8 px-2 flex flex-col justify-center w-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
             Work
@@ -15,48 +17,50 @@ const Work = () => {
           <p className="py-6">Check out some of my recent work</p>
         </div>
         {/* container for projects */}
-        <div className="  grid grid-cols-2 sm: grid-col-1 md:grid-col-3 gap-4 w-full h-screen" >
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full h-auto">
           {/* card div */}
           <div
-            style={{ backgroundImage: `url(${amazon})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex jusify-center text-center items-center mx-auto content-div"
+            style={{ backgroundImage: `url(${hotel})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-1xl font bold text-white tracking-wider">
-                Amazon-Clone 
+              <span className="text-1xl font-bold text-white tracking-wider">
+                Royal-Waterfront-Hotel
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://royal-water-app.vercel.app/">
                   <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/atere21/royal-water-app">
                   <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
               </div>
+
             </div>
           </div>
-          
+
+          {/* Card 2 */}
           <div
-            style={{ backgroundImage: `url(${realestate})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex jusify-center text-center items-center mx-auto content-div"
+            style={{ backgroundImage: `url(${food})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-1xl font bold text-white tracking-wider">
-                React JS Application
+              <span className="text-1xl font-bold text-white tracking-wider">
+                Food-App
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://react-food-app-pied.vercel.app/">
                   <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/atere21/react-food-app">
                   <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -65,22 +69,23 @@ const Work = () => {
             </div>
           </div>
 
+          {/* Card 3 */}
           <div
-            style={{ backgroundImage: `url(${lemon})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex jusify-center text-center items-center mx-auto content-div"
+            style={{ backgroundImage: `url(${data})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-1xl font bold text-white tracking-wider">
-                LITTLE-LEMON (React JS App)
+              <span className="text-1xl font-bold text-white tracking-wider">
+                Data-Finance (React JS App)
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://data-finance-app.vercel.app/">
                   <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/atere21/data-finance-app">
                   <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -88,24 +93,24 @@ const Work = () => {
               </div>
             </div>
           </div>
-          
 
+          {/* Card 4 */}
           <div
-            style={{ backgroundImage: `url(${realestate})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex jusify-center text-center items-center mx-auto content-div"
+            style={{ backgroundImage: `url(${ibeep})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-1xl font bold text-white tracking-wider">
-                React JS Application
+              <span className="text-1xl font-bold text-white tracking-wider">
+                ibeep
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://ibeep-project.vercel.app/">
                   <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/atere21/ibeep-project">
                   <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -114,22 +119,23 @@ const Work = () => {
             </div>
           </div>
 
+          {/* Card 5 */}
           <div
-            style={{ backgroundImage: `url(${workimg})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex jusify-center text-center items-center mx-auto content-div"
+            style={{ backgroundImage: `url(${netflix})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-1xl font bold text-white tracking-wider">
-                React JS Application
+              <span className="text-1xl font-bold text-white tracking-wider">
+                Netflix-clone
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://netflix-app-snowy.vercel.app/">
                   <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/atere21/netflix-app">
                   <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -138,23 +144,23 @@ const Work = () => {
             </div>
           </div>
 
-
-          <div 
-            style={{ backgroundImage: `url(${realestate})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex jusify-center text-center items-center mx-auto content-div "
+          {/* Card 6 */}
+          <div
+            style={{ backgroundImage: `url(${book})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-1xl font bold text-white tracking-wider">
-                React JS Application
+              <span className="text-1xl font-bold text-white tracking-wider">
+                Moving-Company-App
               </span>
-              <div className="pt-8 text-center" >
-                <a href="/">
+              <div className="pt-8 text-center">
+                <a href="https://moving-company-app.vercel.app/">
                   <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/atere21/moving-company-app">
                   <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -162,8 +168,6 @@ const Work = () => {
               </div>
             </div>
           </div>
-
-          
         </div>
       </div>
     </div>
