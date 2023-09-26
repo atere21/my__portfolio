@@ -9,10 +9,10 @@ const Home = () => {
     <div name='home' className="w-full h-screen bg-[#0a132f] ">
       {/* container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-pink-600 text-2xl">Hi, my name is</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">Oluwatosin Atere</h1>
+        <p className="text-pink-600 text-2xl md:text-3xl mx-4 my-4 mt-[6rem]">Hi, my name is</p>
+        <h1 className="text-5xl sm:text-8xl font-bold text-[#ccd6f6]">Oluwatosin Atere</h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">I'm a Full Stack Developer</h2>
-        <p className='text-[#8892b0] py-4 max-w-[700px]'>
+        <p className='text-[#8892b0] py-4 max-w-[700px] text-xl'>
           I’m a software engineer that specializes in building web-applications.
           I have Worked with clients in almost every sector and industry
           creating powerful applications that emphasize customer acquisition and an enhanced online digital experience.

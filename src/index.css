@@ -6,7 +6,11 @@
 @layer base {
     body {
         @apply font-[Raleway];
+       
     }
+
+   
+  
     li {
         @apply px-4;
         @apply cursor-pointer;
@@ -24,10 +28,13 @@
         to right, rgba(209, 1, 81, 0.8),
         hsla(46, 96%, 20%, 0.959)
     )!important;
+
+    
 }
 .contactForm{
     margin-top: 290px;
 }
+
 
 
 
