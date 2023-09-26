@@ -11,9 +11,9 @@ import Mongo from '../assets/mongo.png';
 
 function Skills() {
   return (
-    <div name='skills' className='bg-[#0a132f] text-gray-300  px-4 w-full h-full pt-[44rem] mt-0'>
+    <div name='skills' className='bg-[#0a132f] text-gray-300  px-4 w-full mb-8 pt-[44rem] mt-0'>
      {/* container */}
-     <div className='max-w-[1000px] w-full h-full mx-auto p-4 flex-col justify-center bg-[#0a132f] mt-[4rem] md:mt-0'>
+     <div className='max-w-[1000px] w-full  mx-auto p-4 flex-col justify-center bg-[#0a132f] mt-[4rem] md:mt-0'>
         <div>
             <p className='text-4xl md:text-5xl font-bold inline border-b-4 border-pink-600'>Skills</p>
             <p className='py-9 text-xl md:text-2xl'>These are the technologies I've worked with:</p>
